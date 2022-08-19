@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:id="@+id/imgDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog" />
+    <TextView
+        android:textColor="#1B2583"
+        android:id="@+id/txtA"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/imgDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto A" />
+    <TextView
+        android:textColor="#831B1B"
+        android:id="@+id/txtB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/txtA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto B" />
+    <TextView
+        android:layout_below="@id/txtA"
+        android:textColor="#FFD602"
+        android:id="@+id/txtC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/imgDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto C" />
+    <TextView
+        android:textColor="#34F610"
+        android:id="@+id/txtD"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtA"
+        android:layout_toRightOf="@id/txtC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="texto D" />
+</RelativeLayout>
